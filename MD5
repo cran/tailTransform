@@ -1,0 +1,10 @@
+3e66fb427aeca1f5b245971aa18542ab *DESCRIPTION
+2a4581abde6564cbeddcffd1292716fd *NAMESPACE
+9d5c32d85acb12e9b1e68080a77548ba *R/boxplotTT.R
+97cea282e90b88e0bcb92667c68c4eb7 *R/ttrans.R
+48f100d65582e9492da577604c74ad82 *build/partial.rdb
+ef29ba7e057d086232e4f4344b9af676 *data/aHDL.rda
+0324ae0f0479b71e572a9dee35519c86 *man/aHDL.Rd
+98f44c1b57f6f48ed95eb562b0d4151c *man/boxplotTT.Rd
+ab606191f519a8a9af725ef80291138b *man/tailTransform-package.Rd
+1582c4f3e4da459d5837295848f123b5 *man/ttrans.Rd
