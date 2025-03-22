@@ -44,8 +44,8 @@ A vector of transformed values of d.
 Box, George E. P. and David R. Cox. (1964) An analysis of transformations. Journal of the Royal Statistical Society: Series B 26, 211-243.
 <doi:10.1111/j.2517-6161.1964.tb00553.x>
 
-Rosenbaum, P. R. (2022). A new transformation of treated-control
-matched-pair differences for graphical display.  Manuscript.
+Rosenbaum, P. R. (2022) <doi:10.1080/00031305.2022.2063944> A new transformation of treated-control
+matched-pair differences for graphical display.  American Statistician, 76, 346-352.
 
 Tukey, J. W. (1949). One degree of freedom for non-additivity. Biometrics, 5, 232-242. <doi:10.2307/3001938>
 

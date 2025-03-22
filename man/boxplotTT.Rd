@@ -4,7 +4,9 @@
 Parallel Boxplots After Tail Transformation
 }
 \description{
-Plots one or more boxplots for differences after applying the same tail transformation to all differences.  See the help file for ttrans() for information about the transformation.
+For a matrix of pair differences, plots one or more boxplots for differences after applying the same tail transformation to all differences.  See the help file for
+ttrans() for information about the transformation.  For groups of unequal sizes,
+use boxplotTTlist().
 }
 \usage{
 boxplotTT(y, p = -1, qu = 0.95, tcks = NULL, ylab = "", xlab = "",main = "")
@@ -39,8 +41,8 @@ See the help file for ttrans() for an explanation of the transformation.
 A boxplot.
 }
 \references{
-Rosenbaum, P. R. (2022). A new transformation of treated-control
-matched-pair differences for graphical display.  Manuscript.
+Rosenbaum, P. R. (2022) <doi:10.1080/00031305.2022.2063944> A new transformation of treated-control
+matched-pair differences for graphical display.  American Statistician, 76, 346-352.
 }
 \author{
 Paul R. Rosenbaum

@@ -23,9 +23,9 @@ function(y,p=-1,qu=.95,tcks=NULL,ylab="",xlab="",main=""){
   }
 
   # One transformation for all boxplots
-  beta<-unlist(stats::quantile(abs(y),qu))
+  beta<-unlist(stats::quantile(abs(y),qu,na.rm=TRUE))
   ty<-ttrans(as.vector(unlist(y)),p=p,beta=beta)
-  ylim=c(min(ty),max(ty))
+  ylim=c(min(ty,na.rm=TRUE),max(ty,na.rm=TRUE))
   if (!is.null(tcks)) {
     tcksT<-ttrans(tcks,p=p,beta=beta)
     if(max(tcksT)>ylim[2]) ylim[2]<-max(tcksT)

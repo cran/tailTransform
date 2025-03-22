@@ -13,7 +13,10 @@
 The DESCRIPTION file:
 \packageDESCRIPTION{tailTransform}
 \packageIndices{tailTransform}
-The package contains three items: (i) a function ttrans() that symmetrically shortens the tails of pair differences for graphical display, (ii) a function boxplotTT() that aids in interpreting and displaying the transformed data, and (iii) an observational study aHDL with three control groups and an unaffected outcome that are intended to reveal unmeasured confounding if it is present.<doi:10.1111/biom.13558>
+The package contains five items: (i) a function ttrans() that symmetrically shortens the tails of pair differences for graphical display, (ii) three
+plotting functions, boxplotTT(), boxplotTTlist() and boxplotBlockDesign(), that aid in interpreting and displaying the transformed data, and (iii) an observational study aHDL with three control groups and an unaffected outcome
+that are intended to reveal unmeasured confounding if it is
+present.<doi:10.1080/00031305.2022.2063944>
 }
 \author{
 \packageAuthor{tailTransform}
@@ -21,9 +24,11 @@ The package contains three items: (i) a function ttrans() that symmetrically sho
 Maintainer: \packageMaintainer{tailTransform}
 }
 \references{
-Rosenbaum, P. R. (2022a). Sensitivity analyses informed by tests for bias in observational studies. Biometrics. <doi:10.1111/biom.13558>
+Rosenbaum, P. R. (2023) <doi:10.1111/biom.13558> Sensitivity analyses informed by tests for bias in observational studies. Biometrics. 9(1), 475-487.
 
-Rosenbaum, P. R. (2022b). A new transformation of treated-control matched-pair differences for graphical display.  Manuscript.}
+Rosenbaum, P. R. (2022) <doi:10.1080/00031305.2022.2063944> A new transformation of treated-control
+matched-pair differences for graphical display.  American Statistician, 76, 346-352.
+}
 \keyword{ package }
 \examples{
 data(aHDL)
